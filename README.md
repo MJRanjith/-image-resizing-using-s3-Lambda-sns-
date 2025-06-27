@@ -25,17 +25,21 @@ This project focuses on building an automated system for image processing and ma
 1. Navigate to the S3 Console.
 2. Follow the Outlined Steps below.
 
-![s33](https://github.com/user-attachments/assets/c5529822-0274-4c91-8b58-f7161d423b1b)
-
-![s31](https://github.com/user-attachments/assets/e37a50ef-c618-4afd-9bfd-36ab0e34679c) 
+![2](https://github.com/user-attachments/assets/082e4cbf-4892-458d-bc76-974ce4e36ca7)
 
 
-![s3](https://github.com/user-attachments/assets/b9d6a70e-32a2-4e19-981b-59d5972f4762)
+![3](https://github.com/user-attachments/assets/b9467764-9800-40d9-8469-93f65758de25)
+
+
+![4](https://github.com/user-attachments/assets/14613cd7-205a-41c3-ad1a-059a04599cc9)
+
+
 
 
 3. Create the destination bucket using the same steps and name it with a unique name.
 
-![s32](https://github.com/user-attachments/assets/d3856260-b835-404b-9860-9d4b8f955880)
+![5](https://github.com/user-attachments/assets/5065b543-e6aa-497f-a75d-382fd04b8565)
+
 
 
 4. As you can see above , I created two buckets one is Source bucket and another one is Destination bucket.
@@ -46,23 +50,28 @@ This project focuses on building an automated system for image processing and ma
 1. Navigate to the SNS console.
 2. Follow the Outlined Steps below.
 
-![sns](https://github.com/user-attachments/assets/d41d9e94-1014-4a97-9b3c-a8fae3677d63)
+![6](https://github.com/user-attachments/assets/20ccb48a-9bef-4470-a71d-a325263e80f3)
 
-![sns1](https://github.com/user-attachments/assets/f0093dc7-fd5d-4abd-ba66-78f7313dda3f)
 
-![sns2](https://github.com/user-attachments/assets/747fe648-653f-4690-93bc-2ae69c0f1a01)
+![7](https://github.com/user-attachments/assets/431e7c81-bd04-43aa-a543-c8d1e1253ba5)
 
-![sns3](https://github.com/user-attachments/assets/0c7fa65c-99b5-4932-96af-abcd5de20794)
+
+![8](https://github.com/user-attachments/assets/b7bf6430-2d62-4d90-9c36-ba7cd883c700)
+
+
+![9](https://github.com/user-attachments/assets/eee7ea9a-17fa-48aa-87e9-5722fd8f573e)
+
 
 
 3. Scroll down and Click "Create subscription" <br>
 4. After this , you will receive some mail for Subscription Confirmation and you have to confirm that.<br>
 5. You can use any other protocols also like SQS, HTTP, SMS etc .,<br>
 
+![10](https://github.com/user-attachments/assets/2d62115b-61b5-4a45-8d61-17d4ad28848b)
 
-![sms](https://github.com/user-attachments/assets/c20fcf81-3bfd-471a-afba-e35858ffcb54)
 
-![sms1](https://github.com/user-attachments/assets/0159827d-6661-407b-80c1-f29f477ae815)
+![11](https://github.com/user-attachments/assets/7e193a5a-14a7-469e-8ba2-633704c774ca)
+
 
 
 ### Step 3 :
@@ -71,48 +80,63 @@ This project focuses on building an automated system for image processing and ma
 1. Navigate to the Lambda Console.
 2. Follow the Outlined steps below.
 
-![lamb1](https://github.com/user-attachments/assets/554bb3f9-f970-4a50-b265-8569ae2abadc)
+![12](https://github.com/user-attachments/assets/d6d6b93b-9ab3-478c-80ac-70299e9205bd)
 
-![lamb2](https://github.com/user-attachments/assets/353d1b18-4877-48c1-aaf4-93844bfe9d4a)
+
+![13](https://github.com/user-attachments/assets/c8e423dc-a1ca-4b12-b0c0-073b56a66a62)
+
 
 
 3. Now replace the default code with the image-resizing-s3.py and deploy the changes , Don't test the code now we have to do some more actions before testing.
 4. After that , We have to give some permission for our Lambda Function to do our process (resizing) , For that navigate to the IAM Console and follow the below steps.
 
-![iam](https://github.com/user-attachments/assets/fd4c76f4-a522-4640-bcbb-eaecd38871b0)
-
-![iam1](https://github.com/user-attachments/assets/0c883af5-e950-4305-9546-393f2671fa65)
-
-![iam2](https://github.com/user-attachments/assets/2eb83e20-90ba-4a1a-a722-57e0ed5b6e9a)
+![14](https://github.com/user-attachments/assets/d7f9e9ec-43c4-440b-ad9f-d740d82652ad)
 
 
-![iam3](https://github.com/user-attachments/assets/8456e48f-3632-4aad-a0a1-f73b18aeb5a1)
+![15](https://github.com/user-attachments/assets/37976fca-0bb0-4146-919d-137e2c2b1e25)
 
 
-![iam4](https://github.com/user-attachments/assets/15498828-c130-4adf-afe2-83c70ecc9f29)
-
-![iam5](https://github.com/user-attachments/assets/181abf65-b9d4-4148-9fad-2c4511733d90)
-
-![iam6](https://github.com/user-attachments/assets/510fa011-f0da-4255-92b1-e0b2cfef3f09)
+![16](https://github.com/user-attachments/assets/e5acd721-2077-42bf-9dee-479381538bb4)
 
 
-![iam7](https://github.com/user-attachments/assets/c91f2079-0e3c-4bcf-afb5-2b6221d3de29)
+
+![17](https://github.com/user-attachments/assets/0d8dad0f-5ac1-4f2a-a385-6ba08a96f0a7)
+
+
+
+![18](https://github.com/user-attachments/assets/6a066878-7bd3-431e-a5d0-f472f2616e0f)
+
+
+![19](https://github.com/user-attachments/assets/596cf105-d05e-40e7-8a34-4edd4cb0594a)
+
+
+![20](https://github.com/user-attachments/assets/198c47c6-7795-4d15-ad6e-9600ce9816a0)
+
+
+![21](https://github.com/user-attachments/assets/ef3bf12f-f280-4325-9cba-39fa09deed49)
+
+
 
 5. Now navigate to the Lambda Console and follow the steps below.
 
-![iam8](https://github.com/user-attachments/assets/2248dd55-885b-4cf5-a90e-cf888ffe290b)
+![22](https://github.com/user-attachments/assets/f06a5d0c-39b9-497e-82eb-38f51039a0d4)
 
-![iam9](https://github.com/user-attachments/assets/1c59c273-9fc4-43c7-977f-884acb8824e6)
 
-![iam10](https://github.com/user-attachments/assets/443e9d3d-6bb9-4d79-985e-38c6c3f2fd12)
+![23](https://github.com/user-attachments/assets/cd0131b5-daa5-48d9-b2d7-677205ab9bf9)
+
+
+![24](https://github.com/user-attachments/assets/478bfe2b-01a2-45c7-9e9e-9c82d3cb3e19)
+
 
 
 6. Now we have to trigger the function.
 
+![25](https://github.com/user-attachments/assets/8eb005a8-e703-4640-81da-ef59c28ab148)
 
-![trigger](https://github.com/user-attachments/assets/02c08142-dac0-4d15-8d1f-b86920927fc1)
 
-![trigger1](https://github.com/user-attachments/assets/55050fcd-caba-423a-bc26-c0141c77f26d)
+![26](https://github.com/user-attachments/assets/776b1b0f-5b10-4aaf-8c00-e5232ba9cc94)
+
+
 
 
 7. Now we have to go to code section , and scroll down to  layers.<br>
@@ -121,9 +145,11 @@ This project focuses on building an automated system for image processing and ma
 10. It's because for resize the image we upload in our source S3 bucket , We need a python library called pillow in our code to resize the image . We can manually add Pillow library also, But it's very time consuming and you have to do lot more , Instead of manually adding pillow library we are going to use layers for Some easy action.<br>
 11. Follow the outlined Steps below.
 
-![layer](https://github.com/user-attachments/assets/d9314372-1632-4ba1-8e84-498d9e22bc88)
+![27](https://github.com/user-attachments/assets/7f35e633-2263-4d38-9739-33930e2f89de)
 
-![layer1](https://github.com/user-attachments/assets/aef87351-8fa7-4e63-b5c4-7f137d091932)
+
+![28](https://github.com/user-attachments/assets/ffad4218-a1c1-4ed4-b70d-2796e3e2b7e1)
+
 
 
 12.You can copy the arn from below.
@@ -134,14 +160,17 @@ arn:aws:lambda:ap-south-1:770693421928:layer:Klayers-p39-pillow:1
 
 13. After done all the actions above , now we can test our code.
 
-![test](https://github.com/user-attachments/assets/9abef56b-d495-4335-a7d0-03b9f6b6b584)
+![29](https://github.com/user-attachments/assets/c24fc5d1-ae6b-4a76-8b80-eae96dea314a)
 
-![test1](https://github.com/user-attachments/assets/d7ad4160-c2f4-405c-b84c-b15295979fa7)
+![30](https://github.com/user-attachments/assets/3dee106e-f533-4139-bd3a-b9fe441168cd)
+
+
 
 
 14. It will show some results like below , It runs successfully but return some error because we still not upload the images in S3 yet.
 
-![test-result](https://github.com/user-attachments/assets/0b039a6f-bc95-440f-8c74-a1859a04031b)
+![31](https://github.com/user-attachments/assets/fd38ce7f-1e0a-4f1c-91c8-dea26e782422)
+
 
 
 
@@ -151,17 +180,22 @@ arn:aws:lambda:ap-south-1:770693421928:layer:Klayers-p39-pillow:1
 1. Navigate to the S3 Console.
 2. Upload Some images in  Source Bucket.
 
-![out](https://github.com/user-attachments/assets/1a99c657-ee2b-46e6-bfad-c62c28397a19)
+![32](https://github.com/user-attachments/assets/9abcfab4-64dd-4f39-82c8-5edc3bd5bc45)
 
-![out1](https://github.com/user-attachments/assets/1b664e4c-29e6-4527-96dc-996b42615c98)
 
-![out2](https://github.com/user-attachments/assets/8a20a117-30d3-4838-91ed-953d250b0c2d)
+![33](https://github.com/user-attachments/assets/7cf987c9-5470-4d1b-b3bd-f83941fe37fd)
 
-![out3](https://github.com/user-attachments/assets/386fc57b-a203-497e-88f6-2c49a9d9c016)
 
-![out4](https://github.com/user-attachments/assets/2e867750-44ea-402b-8f27-a08aac7413d2)
+![34](https://github.com/user-attachments/assets/5c81ffaf-e926-4cb1-baf8-87a1ae0c8ebf)
 
-![output](https://github.com/user-attachments/assets/0784ee57-d1cf-4a18-afcf-b9dd701b1916)
+![35](https://github.com/user-attachments/assets/ee479fed-c943-4140-b0a8-868f8c2feb8f)
+
+
+![36](https://github.com/user-attachments/assets/6ddd66c4-9e91-4d93-9463-7b0e57c1d043)
+
+
+![37](https://github.com/user-attachments/assets/8d1d684a-553f-4dd4-ae12-eb074c5a396b)
+
 
 
 ### It Successfully resized the Image and sends me the Notification.
